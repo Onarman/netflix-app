@@ -1,5 +1,5 @@
-import Image from "next/image";
+import HomeContainer from "@/containers/home";
 
 export default function Home() {
-  return <h3>Home</h3>;
+  return <HomeContainer />;
 }
