@@ -4,7 +4,7 @@ import React from 'react'
 function MovieContainer({movie}) {
   return (
 	<div>
-	  <FeaturedMovie movie={movie} isCompact={false}/>
+	  <FeaturedMovie movie={movie} isCompact/>
 	</div>
   )
 }

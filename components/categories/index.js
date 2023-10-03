@@ -15,7 +15,7 @@ function Categories({ categories }) {
         </Link>
       ))}
     </div>
-  );
+  )
 }
 
 export default Categories;
