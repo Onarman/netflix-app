@@ -7,7 +7,6 @@ import styles from "./styles.module.css";
 
 function FeaturedMovie({ movie = {}, isCompact = true }) {
   const { poster_path, title, overview } = movie;
-
   return (
     <div className={styles.movieWrapper}>
       <h1 className={styles.movieTitle}>{title}</h1>
@@ -36,7 +35,7 @@ function FeaturedMovie({ movie = {}, isCompact = true }) {
         />
       </div>
     </div>
-  )
+  );
 }
 
 // export { FeatureMovieLoading } from "./loading";
