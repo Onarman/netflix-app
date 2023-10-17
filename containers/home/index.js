@@ -26,11 +26,11 @@ function HomeContainer({
         />
       )}
       <MovieSection
-        title="Popular Movies"
+        title="Top Rated Movies"
         movies={topRatedMovies.slice(1, 7)}
       />
       <MovieSection
-        title="Popular Movies Tv"
+        title="Popular Movies"
         movies={popularMovies.slice(7, 13)}
       />
     </div>
