@@ -6,4 +6,7 @@
   
   .footer a {
 	text-decoration: underline;
+	margin-left: 0.5rem;
+	text-decoration: none;
+
   }
